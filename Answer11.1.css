@@ -1,0 +1,19 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font: 50px;
+    color: red;
+    margin:20px;
+    padding:20px;
+}
+header{
+    text-align:center;
+}
+@media screen and (max-width:600px) {
+    header{
+        background-color:blue;
+    }
+}

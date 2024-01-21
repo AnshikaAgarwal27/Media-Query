@@ -1,0 +1,24 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    margin:20px;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+@media screen and (max-width:768px){
+    .navbar{
+        background-color:grey;
+        flex-direction: column;
+        gap:20px;
+        text-align: center;
+    }
+}
